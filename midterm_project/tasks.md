@@ -3,7 +3,9 @@
 1. Ubelix is the high performance computing (HPC) cluster at the University of Bern. It consists of around 320 compute nodes. These computational resources can be used by students and employees for theses, projects, research etc.
 2. Anybody with a Campus Account can use the cluster. To do so the Account has to be activated first by sending a request [here](https://serviceportal.unibe.ch/hpc). After the account is activated one can simply establish an SSH connection to one of the submit nodes from within the university network.
 3. Jobs can be submitted via bash scripts and the command `sbatch` like this:
-`sbatch myjob.sh`
+```
+sbatch myjob.sh
+```
 The command `sbatch` also takes several arguments to specify how the job should be run. One can for example specify how long the task can run or that an email is sent once the job has been completed. 
 4. Anybody with a campus account has access, i.e. students and staff. Furthermore external researches who collaborate with the University of Bern can apply for a campus account and gain access.
 5. Ubelix provides both storage and computational resources. In addition, workspaces can be created to facilitate collaboration within research projects.
