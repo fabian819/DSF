@@ -1,3 +1,5 @@
+##### Questions
+For the questions see background_questions_midterm_project.ipynb
 ##### Task 3
 1. The training set is the part of the data that is used to train the model. In the case of the kinase data we used 70% of the data, which means the training set contains about 125'000 datapoints.
 2. The kinase dataset only contains the IC50 value and not the pIC50 value. Therefore to use the data with the code from the tutorial, the pIC50 value has to be calculated first. Since the dataset contains entries where the IC50 is zero, taking the log results in an infinite value. These were dropped before training the model.
